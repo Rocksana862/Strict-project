@@ -1,0 +1,251 @@
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width:320px) and (max-width:576px) { 
+/********Extra small device responsive work START********/
+/********Header part responsive Start********/
+.navbar-nav
+{
+margin-top:20px;
+background:#CFEDFF;
+}
+.navbar-nav .nav-item .nav-link
+{
+text-align:center;
+border-bottom:1px solid #15A4FA;
+font-size:20px;
+padding:15px 0;
+}
+/********Header part responsive Ends********/
+/********Banner part responsive Start********/
+.banner_title h1
+{
+font-size:80px;
+text-align:center;
+}
+.banner_title h3
+{
+text-align:center;
+}
+.button 
+{
+margin:0 auto;
+}
+.button .btn
+{
+margin-left:87px;
+}
+/********Banner part responsive Ends********/
+/********Simple part responsive Start********/
+.title p
+{
+padding-right: 20px;
+padding-left:20px; 
+padding-bottom:30px;
+}
+/********Simple part responsive Ends********/
+/********Blog Service part responsive Start********/
+.overlay
+{
+position: absolute;
+top:54px;
+left:115px;
+bottom: 35px;
+padding:56.5px 19px;
+background:#5FC3FF;
+margin:0 auto;
+display:inline-block;
+opacity:0.3;
+transition:.6s;
+border-radius:2px;
+}
+/********Blog Service part responsive Ends********/
+/********Showcase part responsive Start********/
+.showcase_title h1
+{
+text-align:center;
+}
+.gallery-img-1
+{
+margin-bottom: 25px;
+}
+.gallery-img-2
+{
+margin-bottom: 25px;
+}
+/********Showcase part responsive Ends********/
+/********Stay with part responsive Start********/
+.newslatter_icon h5
+{
+width:200px;
+}
+/********Stay with  responsive Ends********/
+/********Fotter responsive Start********/
+.fotter_text
+{
+text-align: center;
+}
+.fotter_icon
+{
+display:none;
+}
+/********Fotter responsive Ends********/
+}
+/********Extra small device responsive work Ends********/
+/*// Medium devices (tablets, 768px and up) */
+@media (min-width:577px) and (max-width:768px) { 
+/******* Medium devices work START**********/
+/********Header part responsive Start********/
+.navbar-nav
+{
+margin-top:20px;
+background:#CFEDFF;
+}
+.navbar-nav .nav-item .nav-link
+{
+text-align:center;
+border-bottom:1px solid #15A4FA;
+font-size:20px;
+padding:15px 0;
+background:#F6F9F9;
+}
+/********Header part responsive Start********/
+/********Banner part responsive Start********/
+.button
+{
+background:;
+margin:0 auto;
+}
+.button .btn
+{
+margin-left:263px;
+}
+.icon ul li a
+{
+margin-right:43px;
+}
+/********Banner part responsive Ends********/
+/********Blog Service responsive part Start********/
+.overlay
+{
+left:224px;
+}
+/********Blog Service responsive part Ends********/
+/******** Showcase responsive part Ends********/
+.gallery-img-1
+{
+margin-bottom: 25px;
+}
+.gallery-img-2
+{
+margin-bottom: 25px;
+}
+/******** Showcase responsive part Start********/
+}
+/*******Medium devices work ENDS**********/
+/* // Large devices (desktops, 992px and up)*/
+@media (min-width:769px ) and (max-width: 992px) { 
+/*******Large devices work START**********/
+/********Header part responsive Start********/
+.navbar-nav
+{
+margin-top:20px;
+background:#CFEDFF;
+}
+.navbar-nav .nav-item .nav-link
+{
+text-align:center;
+border-bottom:1px solid #15A4FA;
+font-size:15px;
+padding:15px 0;
+}
+/********Header part responsive Ends********/
+/********Banner part responsive Start********/
+.button
+{
+background:;
+margin:0 auto;
+}
+.button .btn 
+{
+margin-left: 410px;
+}
+/********Banner part responsive Ends********/
+/********Simple & Pure  part responsive Start********/
+.title p
+{
+justify-content:center;
+}
+/********Simple & Pure  part responsive Ends********/
+/********Blog Service  part responsive Start********/
+.overlay
+{
+position: absolute;
+top:54px;
+left: 70px;
+bottom: 35px;
+padding:56.5px 19px;
+background:#5FC3FF;
+margin:0 auto;
+display:block;
+opacity:0.3;
+transition:.6s;
+border-radius:2px;
+}
+.otimized p
+{
+justify-content:center;
+text-align:center;
+align-items:center;
+padding:10px 10px;
+}
+.icon-1
+{
+justify-content:center;
+text-align:center;
+align-items:center;
+}
+.Icon-3-text p
+{
+margin-top:26px;
+padding: 10px 10px;
+}
+.optimized p
+{
+padding:20px 15px;
+}
+.optimized
+{
+background:;
+}
+/********Blog Service  part responsive Ends********/
+/********Fotter  part responsive Start********/
+.newslatter_icon h5
+{
+width:250px;
+}
+/********Fotter  part responsive Start********/
+ }
+/*******Large devices work ENDS**********/
+/* // X-Large devices (large desktops, 1200px and up)*/
+@media (min-width:993px) and (max-width: 1200px) {
+/*******X-Large devices work START**********/
+/********Blog Service part responsive Start****/
+.optimized p
+{
+background:;
+
+text-align:center;
+}
+.overlay
+{
+left:110px;
+}
+/********Blog Service part responsive Ends****/
+ }
+/*******X-Large devices work ENDS**********/
+/* // XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width:1201) and (max-width:1400px) { 
+/******Nothing has changed in this device*****/
+} 
+/*******XX-Large devices work ENDS**********/
